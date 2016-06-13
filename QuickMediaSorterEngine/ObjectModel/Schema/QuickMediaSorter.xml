@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<QuickMediaSorterProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ver="1.0.0.0" 
+                         Extentions="*.jpg" Folder="">
+  <Trigger Key="Right">
+    <Action ActionType="Next" Folder=""/>
+  </Trigger>
+  <Trigger Key="Space">
+    <Action ActionType="Next" Folder=""/>
+  </Trigger>
+  
+</QuickMediaSorterProject>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="QuickMediaSorter.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:view="clr-namespace:QuickMediaSorter.View"
+        Title="Quick Media Sorter" Height="640" Width="1009.2" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="160"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <view:ImagesView DataContext="{Binding ImagesViewViewModel}"></view:ImagesView>
+    </Grid>
+</Window>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickMediaSorterForm", "QuickMediaSorter\QuickMediaSorterForm.csproj", "{0E7C3C5D-1375-4FD6-A00D-CBA5F85F0672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalUtils", "..\TalUtils\TalUtils.csproj", "{C172ED60-5307-47B2-A243-C2E864870608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickMediaSorterEngine", "QuickMediaSorterEngine\QuickMediaSorterEngine.csproj", "{309CBCAC-1C22-4952-8DF5-7D893C81F6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickMediaSorterWpf", "QuickMediaSorterWpf\QuickMediaSorterWpf.csproj", "{5C884039-FBB7-46CC-A9D4-79F23FC6B653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7C3C5D-1375-4FD6-A00D-CBA5F85F0672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7C3C5D-1375-4FD6-A00D-CBA5F85F0672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7C3C5D-1375-4FD6-A00D-CBA5F85F0672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7C3C5D-1375-4FD6-A00D-CBA5F85F0672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C172ED60-5307-47B2-A243-C2E864870608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C172ED60-5307-47B2-A243-C2E864870608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C172ED60-5307-47B2-A243-C2E864870608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C172ED60-5307-47B2-A243-C2E864870608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309CBCAC-1C22-4952-8DF5-7D893C81F6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309CBCAC-1C22-4952-8DF5-7D893C81F6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309CBCAC-1C22-4952-8DF5-7D893C81F6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309CBCAC-1C22-4952-8DF5-7D893C81F6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C884039-FBB7-46CC-A9D4-79F23FC6B653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C884039-FBB7-46CC-A9D4-79F23FC6B653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C884039-FBB7-46CC-A9D4-79F23FC6B653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C884039-FBB7-46CC-A9D4-79F23FC6B653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

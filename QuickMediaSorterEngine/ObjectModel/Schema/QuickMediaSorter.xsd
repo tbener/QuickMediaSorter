@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xsd:element name="QuickMediaSorterProject">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" name="Trigger">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Action">
+                <xsd:complexType>
+                  <xsd:attribute name="ActionType" type="xsd:string" use="required" />
+                  <xsd:attribute name="Folder" type="xsd:string" use="optional" />
+                  <xsd:attribute name="Description" type="xsd:string" use="optional" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="Key" type="xsd:string" use="required" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="ver" type="xsd:string" use="required" />
+      <xsd:attribute name="Extentions" type="xsd:string" use="required" />
+      <xsd:attribute name="Folder" type="xsd:string" use="required" />
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

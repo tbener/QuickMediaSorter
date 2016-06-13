@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<QuickMediaSorterProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Extentions="*.jpg">
+  <Trigger Key="ControlKey">
+    <Action ActionType="Copy" Folder="Album" />
+  </Trigger>
+  <Trigger Key="S">
+    <Action ActionType="Move" Folder="Move1" />
+  </Trigger>
+</QuickMediaSorterProject>

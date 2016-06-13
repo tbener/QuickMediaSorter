@@ -1,0 +1,14 @@
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\QuickMediaSorter.exe.config
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\QuickMediaSorter.exe
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\QuickMediaSorter.pdb
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\obj\Debug\QuickMediaSorter.csprojResolveAssemblyReference.cache
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\obj\Debug\QuickMediaSorter.Properties.Resources.resources
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\obj\Debug\QuickMediaSorter.Views.MainWindow.resources
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\obj\Debug\QuickMediaSorter.csproj.GenerateResource.Cache
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\obj\Debug\QuickMediaSorter.exe
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\obj\Debug\QuickMediaSorter.pdb
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\TalUtils.dll
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\log4net.dll
+c:\users\tbener\documents\visual studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\TalUtils.pdb
+C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\QuickMediaSorterEngine.dll
+C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorter\bin\Debug\QuickMediaSorterEngine.pdb
