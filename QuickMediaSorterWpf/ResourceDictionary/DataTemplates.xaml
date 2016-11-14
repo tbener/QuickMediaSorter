@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:QuickMediaSorter.ResourceDictionary"
+                    xmlns:vm="clr-namespace:QuickMediaSorter.ViewModel"
+                    xmlns:v="clr-namespace:QuickMediaSorter.View"
+                    xmlns:uvm="clr-namespace:QuickMediaSorter.UserControls.ViewModel"
+                    xmlns:uv="clr-namespace:QuickMediaSorter.UserControls.View">
+
+    <DataTemplate DataType="{x:Type vm:ActionViewModel}">
+        <v:ActionView />
+    </DataTemplate>
+
+    <!--<DataTemplate DataType="{x:Type uvm:PathBrowserViewModel}">
+        <uv:PathBrowserView />
+    </DataTemplate>-->
+
+</ResourceDictionary>

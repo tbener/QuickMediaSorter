@@ -7,25 +7,43 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using QuickMediaSorter.ObjectModel;
+using System.Collections.ObjectModel;
 
 namespace QuickMediaSorter.ViewModel
 {
     public class ImagesViewModel : BaseViewModel
     {
-        private QuickMediaSorterProject _qms;
-
         public ImagesViewModel(QuickMediaSorterProject qms)
         {
-            _qms = qms;
+            qms.OnChange += (s, e) => { Refresh(); } ;
             Refresh();
         }
 
         public void Refresh()
         {
-            CurrentImage = new BitmapImage(new Uri(_qms.FileInfo.FullName));
-            FileName = _qms.FileInfo.Name;
+            if (QuickMediaSorterProject.CurrentFileInfo == null)
+            {
+                ImageUri = "";
+                FileName = "";
+            }
+            else
+            {
+                ImageUri = QuickMediaSorterProject.CurrentFileInfo.FileInfo.FullName;
+                FileName = QuickMediaSorterProject.CurrentFileInfo.FileInfo.Name;
+            }
+
+            
         }
 
+        public ObservableCollection<string> ImageList
+        {
+            get { return (ObservableCollection<string>)GetValue(ImageListProperty); }
+            set { SetValue(ImageListProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for ImageList.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ImageListProperty =
+            DependencyProperty.Register("ImageList", typeof(ObservableCollection<string>), typeof(ImagesViewModel), new PropertyMetadata(null));
 
 
 
@@ -39,6 +57,17 @@ namespace QuickMediaSorter.ViewModel
         // Using a DependencyProperty as the backing store for CurrentImage.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty CurrentImageProperty =
             DependencyProperty.Register("CurrentImage", typeof(ImageSource), typeof(ImagesViewModel), new PropertyMetadata(null));
+
+
+        public string ImageUri
+        {
+            get { return (string)GetValue(ImageUriProperty); }
+            set { SetValue(ImageUriProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for ImageUri.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ImageUriProperty =
+            DependencyProperty.Register("ImageUri", typeof(string), typeof(ImagesViewModel), new PropertyMetadata(""));
 
 
 

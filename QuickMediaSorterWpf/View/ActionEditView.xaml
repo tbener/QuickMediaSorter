@@ -1,0 +1,32 @@
+﻿<Window x:Class="QuickMediaSorter.View.ActionEditView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuickMediaSorter.View"
+        xmlns:uc="clr-namespace:QuickMediaSorter.UserControls.View"
+        xmlns:Converters="clr-namespace:QuickMediaSorter.Converters" 
+        mc:Ignorable="d"
+        Topmost="True"
+        Title="Action settings" Height="300" Width="300">
+    <Window.Resources>
+        <Converters:InvertableBooleanToVisibilityConverter x:Key="InvertableBooleanToVisibilityConverter"/>
+    </Window.Resources>
+    <StackPanel Orientation="Vertical" Margin="8">
+        <!--<TextBlock Text="Name (optional):" Margin="0 4"/>-->
+        <!-- Need to add x button to cancel edit -->
+        <!--<TextBox Text="{Binding Name}" />-->
+
+        <TextBlock Text="Shortcut key(s):" Margin="0 4"/>
+        <TextBox Text="{Binding HotKeyString, Mode=OneWay}" Grid.Row="1" IsReadOnly="True" TextAlignment="Center" KeyDown="TextBox_KeyDown"/>
+        
+        <TextBlock Text="Action type:" Margin="0 4"/>
+        <ComboBox ItemsSource="{Binding ActionTypes}" SelectedItem="{Binding ActionType}" IsSynchronizedWithCurrentItem="True" Width="120" HorizontalAlignment="Left"/>
+
+        <TextBlock Text="Destination:" Margin="0 4" Visibility="{Binding ShowDestination, Converter={StaticResource InvertableBooleanToVisibilityConverter}}"/>
+        <uc:PathBrowserView DataContext="{Binding PathBrowserViewModel}" Visibility="{Binding ShowDestination, Converter={StaticResource InvertableBooleanToVisibilityConverter}}"/>
+        
+        
+    </StackPanel>
+
+</Window>

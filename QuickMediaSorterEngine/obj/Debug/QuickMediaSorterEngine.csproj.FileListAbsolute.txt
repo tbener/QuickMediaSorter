@@ -1,8 +1,0 @@
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\bin\Debug\QuickMediaSorterEngine.dll
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\bin\Debug\QuickMediaSorterEngine.pdb
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\bin\Debug\log4net.dll
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\bin\Debug\TalUtils.dll
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\bin\Debug\TalUtils.pdb
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\obj\Debug\QuickMediaSorterEngine.csprojResolveAssemblyReference.cache
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\obj\Debug\QuickMediaSorterEngine.dll
-C:\Users\TBener\Documents\Visual Studio 2012\Projects\QuickMediaSorter\QuickMediaSorterEngine\obj\Debug\QuickMediaSorterEngine.pdb
